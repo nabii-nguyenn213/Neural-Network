@@ -2,8 +2,6 @@ import numpy as np
 import math
 from layer import Layer
 
-np.random.seed(3)
-
 class DeepNeuralNetwork:
     
     def __init__(self, *layers):
